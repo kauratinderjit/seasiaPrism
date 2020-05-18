@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C6429CBC2472B912002A808D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6429CBB2472B912002A808D /* AppDelegate.swift */; };
+		C6429CBE2472B912002A808D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6429CBD2472B912002A808D /* SceneDelegate.swift */; };
+		C6429CC02472B912002A808D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6429CBF2472B912002A808D /* ContentView.swift */; };
+		C6429CC22472B917002A808D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6429CC12472B917002A808D /* Assets.xcassets */; };
+		C6429CC52472B917002A808D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6429CC42472B917002A808D /* Preview Assets.xcassets */; };
+		C6429CC82472B917002A808D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6429CC62472B917002A808D /* LaunchScreen.storyboard */; };
+		C6429CD32472B917002A808D /* SeasiaNoticeBoardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6429CD22472B917002A808D /* SeasiaNoticeBoardTests.swift */; };
+		C6429CDE2472B917002A808D /* SeasiaNoticeBoardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6429CDD2472B917002A808D /* SeasiaNoticeBoardUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C6429CCF2472B917002A808D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C6429CB02472B912002A808D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C6429CB72472B912002A808D;
+			remoteInfo = SeasiaNoticeBoard;
+		};
+		C6429CDA2472B917002A808D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C6429CB02472B912002A808D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C6429CB72472B912002A808D;
+			remoteInfo = SeasiaNoticeBoard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C6429CB82472B912002A808D /* SeasiaNoticeBoard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SeasiaNoticeBoard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6429CBB2472B912002A808D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C6429CBD2472B912002A808D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C6429CBF2472B912002A808D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C6429CC12472B917002A808D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C6429CC42472B917002A808D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C6429CC72472B917002A808D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C6429CC92472B917002A808D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C6429CCE2472B917002A808D /* SeasiaNoticeBoardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SeasiaNoticeBoardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6429CD22472B917002A808D /* SeasiaNoticeBoardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeasiaNoticeBoardTests.swift; sourceTree = "<group>"; };
+		C6429CD42472B917002A808D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C6429CD92472B917002A808D /* SeasiaNoticeBoardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SeasiaNoticeBoardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6429CDD2472B917002A808D /* SeasiaNoticeBoardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeasiaNoticeBoardUITests.swift; sourceTree = "<group>"; };
+		C6429CDF2472B917002A808D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C6429CB52472B912002A808D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6429CCB2472B917002A808D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6429CD62472B917002A808D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C6429CAF2472B912002A808D = {
+			isa = PBXGroup;
+			children = (
+				C6429CBA2472B912002A808D /* SeasiaNoticeBoard */,
+				C6429CD12472B917002A808D /* SeasiaNoticeBoardTests */,
+				C6429CDC2472B917002A808D /* SeasiaNoticeBoardUITests */,
+				C6429CB92472B912002A808D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C6429CB92472B912002A808D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C6429CB82472B912002A808D /* SeasiaNoticeBoard.app */,
+				C6429CCE2472B917002A808D /* SeasiaNoticeBoardTests.xctest */,
+				C6429CD92472B917002A808D /* SeasiaNoticeBoardUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C6429CBA2472B912002A808D /* SeasiaNoticeBoard */ = {
+			isa = PBXGroup;
+			children = (
+				C6429CBB2472B912002A808D /* AppDelegate.swift */,
+				C6429CBD2472B912002A808D /* SceneDelegate.swift */,
+				C6429CBF2472B912002A808D /* ContentView.swift */,
+				C6429CC12472B917002A808D /* Assets.xcassets */,
+				C6429CC62472B917002A808D /* LaunchScreen.storyboard */,
+				C6429CC92472B917002A808D /* Info.plist */,
+				C6429CC32472B917002A808D /* Preview Content */,
+			);
+			path = SeasiaNoticeBoard;
+			sourceTree = "<group>";
+		};
+		C6429CC32472B917002A808D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C6429CC42472B917002A808D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C6429CD12472B917002A808D /* SeasiaNoticeBoardTests */ = {
+			isa = PBXGroup;
+			children = (
+				C6429CD22472B917002A808D /* SeasiaNoticeBoardTests.swift */,
+				C6429CD42472B917002A808D /* Info.plist */,
+			);
+			path = SeasiaNoticeBoardTests;
+			sourceTree = "<group>";
+		};
+		C6429CDC2472B917002A808D /* SeasiaNoticeBoardUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C6429CDD2472B917002A808D /* SeasiaNoticeBoardUITests.swift */,
+				C6429CDF2472B917002A808D /* Info.plist */,
+			);
+			path = SeasiaNoticeBoardUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C6429CB72472B912002A808D /* SeasiaNoticeBoard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6429CE22472B917002A808D /* Build configuration list for PBXNativeTarget "SeasiaNoticeBoard" */;
+			buildPhases = (
+				C6429CB42472B912002A808D /* Sources */,
+				C6429CB52472B912002A808D /* Frameworks */,
+				C6429CB62472B912002A808D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SeasiaNoticeBoard;
+			productName = SeasiaNoticeBoard;
+			productReference = C6429CB82472B912002A808D /* SeasiaNoticeBoard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C6429CCD2472B917002A808D /* SeasiaNoticeBoardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6429CE52472B917002A808D /* Build configuration list for PBXNativeTarget "SeasiaNoticeBoardTests" */;
+			buildPhases = (
+				C6429CCA2472B917002A808D /* Sources */,
+				C6429CCB2472B917002A808D /* Frameworks */,
+				C6429CCC2472B917002A808D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C6429CD02472B917002A808D /* PBXTargetDependency */,
+			);
+			name = SeasiaNoticeBoardTests;
+			productName = SeasiaNoticeBoardTests;
+			productReference = C6429CCE2472B917002A808D /* SeasiaNoticeBoardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C6429CD82472B917002A808D /* SeasiaNoticeBoardUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6429CE82472B917002A808D /* Build configuration list for PBXNativeTarget "SeasiaNoticeBoardUITests" */;
+			buildPhases = (
+				C6429CD52472B917002A808D /* Sources */,
+				C6429CD62472B917002A808D /* Frameworks */,
+				C6429CD72472B917002A808D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C6429CDB2472B917002A808D /* PBXTargetDependency */,
+			);
+			name = SeasiaNoticeBoardUITests;
+			productName = SeasiaNoticeBoardUITests;
+			productReference = C6429CD92472B917002A808D /* SeasiaNoticeBoardUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C6429CB02472B912002A808D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1110;
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = "Poonam Sharma";
+				TargetAttributes = {
+					C6429CB72472B912002A808D = {
+						CreatedOnToolsVersion = 11.1;
+					};
+					C6429CCD2472B917002A808D = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = C6429CB72472B912002A808D;
+					};
+					C6429CD82472B917002A808D = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = C6429CB72472B912002A808D;
+					};
+				};
+			};
+			buildConfigurationList = C6429CB32472B912002A808D /* Build configuration list for PBXProject "SeasiaNoticeBoard" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C6429CAF2472B912002A808D;
+			productRefGroup = C6429CB92472B912002A808D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C6429CB72472B912002A808D /* SeasiaNoticeBoard */,
+				C6429CCD2472B917002A808D /* SeasiaNoticeBoardTests */,
+				C6429CD82472B917002A808D /* SeasiaNoticeBoardUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C6429CB62472B912002A808D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6429CC82472B917002A808D /* LaunchScreen.storyboard in Resources */,
+				C6429CC52472B917002A808D /* Preview Assets.xcassets in Resources */,
+				C6429CC22472B917002A808D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6429CCC2472B917002A808D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6429CD72472B917002A808D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C6429CB42472B912002A808D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6429CBC2472B912002A808D /* AppDelegate.swift in Sources */,
+				C6429CBE2472B912002A808D /* SceneDelegate.swift in Sources */,
+				C6429CC02472B912002A808D /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6429CCA2472B917002A808D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6429CD32472B917002A808D /* SeasiaNoticeBoardTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6429CD52472B917002A808D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6429CDE2472B917002A808D /* SeasiaNoticeBoardUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C6429CD02472B917002A808D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C6429CB72472B912002A808D /* SeasiaNoticeBoard */;
+			targetProxy = C6429CCF2472B917002A808D /* PBXContainerItemProxy */;
+		};
+		C6429CDB2472B917002A808D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C6429CB72472B912002A808D /* SeasiaNoticeBoard */;
+			targetProxy = C6429CDA2472B917002A808D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C6429CC62472B917002A808D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C6429CC72472B917002A808D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C6429CE02472B917002A808D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C6429CE12472B917002A808D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C6429CE32472B917002A808D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"SeasiaNoticeBoard/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = SeasiaNoticeBoard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.seasia.TestSonar.SeasiaNoticeBoard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C6429CE42472B917002A808D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"SeasiaNoticeBoard/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = SeasiaNoticeBoard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.seasia.TestSonar.SeasiaNoticeBoard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C6429CE62472B917002A808D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SeasiaNoticeBoardTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.seasia.TestSonar.SeasiaNoticeBoardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SeasiaNoticeBoard.app/SeasiaNoticeBoard";
+			};
+			name = Debug;
+		};
+		C6429CE72472B917002A808D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SeasiaNoticeBoardTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.seasia.TestSonar.SeasiaNoticeBoardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SeasiaNoticeBoard.app/SeasiaNoticeBoard";
+			};
+			name = Release;
+		};
+		C6429CE92472B917002A808D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SeasiaNoticeBoardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.seasia.TestSonar.SeasiaNoticeBoardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SeasiaNoticeBoard;
+			};
+			name = Debug;
+		};
+		C6429CEA2472B917002A808D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SeasiaNoticeBoardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.seasia.TestSonar.SeasiaNoticeBoardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SeasiaNoticeBoard;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C6429CB32472B912002A808D /* Build configuration list for PBXProject "SeasiaNoticeBoard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6429CE02472B917002A808D /* Debug */,
+				C6429CE12472B917002A808D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C6429CE22472B917002A808D /* Build configuration list for PBXNativeTarget "SeasiaNoticeBoard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6429CE32472B917002A808D /* Debug */,
+				C6429CE42472B917002A808D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C6429CE52472B917002A808D /* Build configuration list for PBXNativeTarget "SeasiaNoticeBoardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6429CE62472B917002A808D /* Debug */,
+				C6429CE72472B917002A808D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C6429CE82472B917002A808D /* Build configuration list for PBXNativeTarget "SeasiaNoticeBoardUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6429CE92472B917002A808D /* Debug */,
+				C6429CEA2472B917002A808D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C6429CB02472B912002A808D /* Project object */;
+}
