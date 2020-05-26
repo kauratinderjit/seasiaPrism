@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15400" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15404"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--LoginVC-->
+        <scene sceneID="j8a-Zd-CAJ">
+            <objects>
+                <viewController id="Wkz-XB-65M" customClass="LoginVC" customModule="SeasiaNoticeBoard" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="cZZ-FI-AD1">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3Qq-v4-UtM">
+                                <rect key="frame" x="16" y="116" width="382" height="52"/>
+                                <subviews>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" clearsOnBeginEditing="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="YHg-Yn-vqr">
+                                        <rect key="frame" x="10" y="20" width="332" height="32"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="phone" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="By8-Yi-x7B">
+                                        <rect key="frame" x="346" y="22.5" width="28" height="26.5"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="28" id="Xgk-Ef-m4I"/>
+                                            <constraint firstAttribute="height" constant="28" id="eZa-6l-6ZJ"/>
+                                        </constraints>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="By8-Yi-x7B" secondAttribute="trailing" constant="8" id="BBz-te-bhP"/>
+                                    <constraint firstItem="By8-Yi-x7B" firstAttribute="leading" secondItem="YHg-Yn-vqr" secondAttribute="trailing" constant="4" id="CzS-4d-2qA"/>
+                                    <constraint firstAttribute="bottom" secondItem="YHg-Yn-vqr" secondAttribute="bottom" id="Fda-P1-AQg"/>
+                                    <constraint firstItem="YHg-Yn-vqr" firstAttribute="leading" secondItem="3Qq-v4-UtM" secondAttribute="leading" constant="10" id="J2N-5D-PYp"/>
+                                    <constraint firstAttribute="height" constant="52" id="U1A-E9-H1E"/>
+                                    <constraint firstItem="YHg-Yn-vqr" firstAttribute="top" secondItem="3Qq-v4-UtM" secondAttribute="top" constant="20" symbolic="YES" id="VDC-sF-Jbb"/>
+                                    <constraint firstItem="YHg-Yn-vqr" firstAttribute="centerY" secondItem="By8-Yi-x7B" secondAttribute="centerY" id="iZC-jg-D0L"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="3"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" red="0.2901960784" green="0.6705882353" blue="0.96862745100000003" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowRadius">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="3Qq-v4-UtM" firstAttribute="top" secondItem="RFg-6R-PvK" secondAttribute="top" constant="28" id="0Yn-Of-WS1"/>
+                            <constraint firstItem="RFg-6R-PvK" firstAttribute="trailing" secondItem="3Qq-v4-UtM" secondAttribute="trailing" constant="16" id="7pH-Y6-Q44"/>
+                            <constraint firstItem="3Qq-v4-UtM" firstAttribute="leading" secondItem="RFg-6R-PvK" secondAttribute="leading" constant="16" id="ncQ-YF-Fjf"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="RFg-6R-PvK"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="S8O-gw-QTW"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cWx-kT-wfB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1044.9275362318842" y="54.241071428571423"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="W3l-6a-QSR">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="mUh-x4-e0y" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="nQJ-cd-G5S">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="Wkz-XB-65M" kind="relationship" relationship="rootViewController" id="1Ed-cN-M2t"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="JWD-rc-XqE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="54.241071428571423"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="phone" catalog="system" width="64" height="56"/>
+    </resources>
+</document>
